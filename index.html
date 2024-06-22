@@ -9,14 +9,15 @@
 </head>
 
 <body>
-    
+   <main>
+    <div class="container pt-3"> 
 <!-- barra de navegacion -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Tareas</a>
+          <a class="navbar-brand" href="#">Tarea</a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -40,22 +41,22 @@
       <div>
         <form> 
           <div class="row">
-            <div class="col-sm-3 d-sm-flex align-items-center">
-              <label class="m-sm-0">Tarea</label>
+            <div class="px-sm-3 col-sm-2 d-sm-flex align-items-center">
+              <label class="m-sm-1">Titulo Tarea</label>
               <input
                 type="text"
                 id="title"
-                class="form-control ml-sm-2"
-                placeholder="Tarea"
+                class="form-control ml-sm-4"
+                placeholder="ej correr"
               >
             </div>
-            <div class="px-sm-2 col-sm-7 d-sm-flex align-items-center mt-2 mt-sm-0">
+            <div class="px-sm-2 col-sm-6 d-sm-flex align-items-center mt-2 mt-sm-0">
               <label class="m-sm-0">Descripcion</label>
               <input
                 type="text"
                 id="description"
                 class="form-control ml-sm-2"
-                placeholder="ej despertar a las 5 am"
+                placeholder="ej despertar a las 5 am correr 5k"
               >
             </div>
             <div class="col-sm-2 d-sm-flex justify-content-end mt-4 mt-sm-0">
@@ -105,6 +106,9 @@
             </tr>
           </tbody>
         </table>
+      </div>
+    </div>
+      </main>
 
 </body>
 </html>
